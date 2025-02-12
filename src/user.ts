@@ -2,7 +2,7 @@ import Database from "./database";
 import { RowDataPacket } from 'mysql2/promise';
 
 export default class User {
-    constructor(id: number, name: string) {}
+    constructor(public id: number, public name: string) {}
 
     static async obtainAll(): Promise<User[]> {
         const db = Database.getInstance();
