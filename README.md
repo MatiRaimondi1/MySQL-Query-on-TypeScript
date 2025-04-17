@@ -1,2 +1,3 @@
-# MySQL-Query-on-TypeScript
-An object oriented application developed on TypeScript that connects to a MySQL database and recovers data.
+# MySQL DB Query on TypeScript application
++ An object oriented application developed on TypeScript.
++ Connects to a MySQL database and recovers data.
